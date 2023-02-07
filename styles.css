@@ -104,7 +104,7 @@ h6:hover{
     border-style: inset;
     border-color: silver;
     border-width: 5pt;
-    background-image: url("Alright.png");
+    background-image: url("Alright.PNG");
     background-repeat: repeat;
     z-index: 10;
     display: none;
