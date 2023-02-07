@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Baka Forest</title>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onkeydown="press(event)">
+<div id="cover" onclick="story()"><p id="teach">press esc to quit</p><p id="say">click anywhere to continue<p></div>
+<div id="title"><h2>Welcome to Baka Forest</h2></div>
+
+<div id="starter" onclick="story()"><h3>Story Mode</h3></div>
+
+<h5><p>hdwallpapercollections.com</p></h5>
+
+
+<div id="inst"><h6><i>-Instructions-</i>
+<p>- If you get a bad end, it's game over</p></h6></div>
+
+<center onclick="story()">
+<img src="zebra.jpg" id="notAnItem" class="item">
+<img src="bucket.png" id="buck" class="item">
+</center>
+
+<center onclick="story()" style="position: relative; top:-10vh">
+<img src="dag.png" id="dag" class="item">
+</center>
+
+<div id="storyBox" onclick="story()"><div id="inside"></div></div>
+
+<button class="decision" id="left">LEFT</button><button class="decision" id="right">RIGHT</button>
+<button class="decision" id="yes">YES</button><button class="decision" id="no">NO</button>
+<button class="decision" id="snape">SNAKE</button><button class="decision" id="robe">ROPE</button>
+<textarea id="toWrite"></textarea>
+
+</body>
+
+<script type="text/javascript" src="baka.js"></script>
+</html>

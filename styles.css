@@ -1,0 +1,197 @@
+body {
+    background-image: url("Forest.png");
+}
+
+
+h2{
+    text-align: center;
+    font-size: 7vh;
+    font-family: COMIC SANS MS;
+}
+
+h3{
+    position: relative;
+    font-size:3.5vh;
+    color: #5aa492;
+    text-shadow: 1.4px 1.4px #9eecd8;
+    margin: 2vh 1pt 2vh 1pt;
+}
+
+h3:active{
+        top:1.5px;
+}
+
+button:active{
+    opacity: 0.7;
+}
+
+h5{
+    position: fixed;
+    left: 10px;
+    top: 610px;
+}
+
+
+h6{
+    text-align: right;
+    font-size: 3.7vh
+}
+
+#title{
+    top: 0;
+    position: fixed;
+    width:100vw;
+}
+
+#starter{
+    background-color: transparent;
+    position: fixed;
+    left: 2vw;
+    top: 21vh;
+    border-width: 1pt;
+    border-style: outset;
+}
+
+#inst{
+    background: -webkit-radial-gradient(#66ff2a, #abff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    top: 1vh;
+    left: 72vw;
+    right: 3vw;
+    vertical-align: right;
+}
+
+h6:hover{
+    font-size: 4.6vh;
+    top: 6vh;
+}
+
+#cover{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    opacity: 0.7;
+    background-color: black;
+    display: none;
+    z-index: 9;
+}
+
+#teach{
+    color: white;
+    position: absolute;
+    right:2vw;
+    font-size: 3vh;
+}
+
+#say{
+    color: white;
+    position: absolute;
+    left:2vw;
+    font-size: 3vh;
+}
+
+#storyBox{
+    position: fixed;
+    bottom:3vh;
+    width: 93vw;
+    height: 25vh;
+    left:3vw;
+    right:4vw;
+    border-style: inset;
+    border-color: silver;
+    border-width: 5pt;
+    background-image: url("Alright.png");
+    background-repeat: repeat;
+    z-index: 10;
+    display: none;
+}
+
+.item{
+    position: relative;
+    width:125pt;
+    height:125pt;
+    top:30vh;
+    display: none;
+    z-index: 10;
+}
+
+#notAnItem{
+    position: relative;
+    width:300pt;
+    height:200pt; left:0;
+    top:25vh;
+    display: none;
+    z-index: 10;
+    position: relative;
+    white-space: nowrap;
+    animation: floatText 2s infinite linear alternate;
+    animation-delay: 0;
+    vertical-align: middle; 
+    opacity: 1
+}
+
+@-webkit-keyframes floatText{
+  from {
+    left: -37vw;
+  }
+
+  to {
+    left: 35vw;
+  }
+}
+
+@-webkit-keyframes shaky{
+  from {
+    left: -7vw;
+  }
+
+  to {
+    left: 5vw;
+  }
+}
+
+.decision{
+    position: fixed;
+    bottom: 5vh;
+    font-size: 5vh;
+    background-color: transparent;
+    border-width: 1pt;
+    z-index: 11;
+    display: none;
+}
+
+#left, #yes, #snape{
+    left: 4vw;
+}
+
+#right, #no, #robe{
+    right: 4vw;
+}
+
+#toWrite{
+    position: fixed;
+    bottom: 5vh;
+    font-size: 5vh;
+    border-width: 1pt;
+    z-index: 11;
+    left: 35vw;
+    right: 35vw;
+    width: 30vw;
+    height: 6vh;
+    overflow: hidden;
+    resize: none;
+    display: none;
+}
+
+#inside{
+    position: relative;
+    top: 2vh;
+    left:1vw;
+    font-size: 5vh; 
+    font-family: verdana;
+    font-weight: bold;
+}
